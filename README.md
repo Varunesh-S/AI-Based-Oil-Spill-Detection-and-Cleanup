@@ -85,6 +85,10 @@ Dataset Source:
 Model:
 - YOLOv11
 
+#Repository Structure
+
+Since the dataset and training are external, your repository can stay lightweight:
+
 AI-Oil-Spill-Detection-System/
 │
 ├── README.md
