@@ -85,7 +85,7 @@ Dataset Source:
 Model:
 - YOLOv11
 
-#Repository Structure
+## Repository Structure
 
 Since the dataset and training are external, your repository can stay lightweight:
 
