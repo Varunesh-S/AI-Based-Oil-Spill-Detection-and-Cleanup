@@ -54,21 +54,61 @@ The system consists of the following major components:
 - Git
 - GitHub
 
-## Project Structure
+## Dataset
 
-```text
+The dataset used for this project is hosted on Roboflow and consists of annotated oil spill images prepared for training YOLO-based computer vision models.
+
+Dataset Link:
+https://universe.roboflow.com/oil-spill-detection-mlacj/oil-xzcql-jz6dq
+
+Dataset Format:
+YOLO
+
+Class:
+- Oil Spill
+
+## Model Training
+
+The YOLOv11 model was trained using Google Colab with GPU acceleration.
+
+Training Framework:
+- Ultralytics YOLOv11
+
+Environment:
+- Google Colab
+- Python
+- PyTorch
+
+Dataset Source:
+- Roboflow
+
+Model:
+- YOLOv11
+
 AI-Oil-Spill-Detection-System/
 │
-├── dataset/
-├── models/
-├── src/
-├── raspberry_pi/
-├── docs/
-├── results/
-├── requirements.txt
 ├── README.md
-└── LICENSE
-```
+├── requirements.txt
+├── training/
+│   ├── train.ipynb
+│   └── train.py
+│
+├── deployment/
+│   ├── detect.py
+│   ├── iot.py
+│   └── cleanup.py
+│
+├── docs/
+│   ├── Project_Report.pdf
+│   ├── Architecture.png
+│   └── Presentation.pdf
+│
+├── results/
+│   ├── output1.png
+│   ├── output2.png
+│   └── metrics.png
+│
+└── sample_images/
 
 ## Installation
 
