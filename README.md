@@ -58,6 +58,10 @@ The system consists of the following major components:
 
 The dataset used for this project is hosted on Roboflow and consists of annotated oil spill images prepared for training YOLO-based computer vision models.
 
+The project was trained using a custom dataset managed on Roboflow.
+
+A subset of sample images is included for demonstration purposes.
+
 Dataset Link:
 https://universe.roboflow.com/oil-spill-detection-mlacj/oil-xzcql-jz6dq
 
