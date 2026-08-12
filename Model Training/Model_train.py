@@ -103,7 +103,7 @@ from roboflow import Roboflow
 
 class Config:
     # Dataset
-    roboflow_api_key = "I8QgPdkij7aR198vQ8CU"
+    roboflow_api_key = "Enter_API_Key"
     roboflow_workspace = "emtechieee"
     roboflow_project = "oil-xzcql"
     roboflow_version = 2
