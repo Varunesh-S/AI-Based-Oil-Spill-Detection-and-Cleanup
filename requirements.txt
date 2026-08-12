@@ -1,13 +1,14 @@
-ultralytics
+ultralytics>=8.3.0
+roboflow
 opencv-python
 numpy
 pandas
 matplotlib
 torch
 torchvision
-roboflow
 Pillow
 PyYAML
+torchaudio
 
 picamera2
 gpiozero
