@@ -28,7 +28,6 @@ The system consists of the following major components:
 - Raspberry Pi
 - YOLOv11 Detection Model
 - OpenCV Image Processing
-- IoT Communication Module
 - Cleanup Mechanism
 - Remote Monitoring Dashboard
 
@@ -44,6 +43,11 @@ The system consists of the following major components:
 
 ### Embedded Systems
 - Raspberry Pi
+- Propulsion Motors
+- Skimmer Motor
+- BMS
+- Battery Source
+- Pi Camera
 
 ### Internet of Things
 - IoT-based Remote Monitoring
@@ -51,9 +55,8 @@ The system consists of the following major components:
 ### Development Tools
 - Google Colab
 - Roboflow
-- Git
-- GitHub
-
+- CUDA (TensorRT)
+  
 ## Dataset
 
 The dataset used for this project is hosted on Roboflow and consists of annotated oil spill images prepared for training YOLO-based computer vision models.
