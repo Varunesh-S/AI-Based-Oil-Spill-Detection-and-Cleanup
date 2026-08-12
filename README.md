@@ -92,35 +92,6 @@ Dataset Source:
 Model:
 - YOLOv11
 
-## Repository Structure
-
-Since the dataset and training are external, your repository can stay lightweight:
-
-AI-Oil-Spill-Detection-System/
-│
-├── README.md
-├── requirements.txt
-├── training/
-│   ├── train.ipynb
-│   └── train.py
-│
-├── deployment/
-│   ├── detect.py
-│   ├── iot.py
-│   └── cleanup.py
-│
-├── docs/
-│   ├── Project_Report.pdf
-│   ├── Architecture.png
-│   └── Presentation.pdf
-│
-├── results/
-│   ├── output1.png
-│   ├── output2.png
-│   └── metrics.png
-│
-└── sample_images/
-
 ## Installation
 
 Clone the repository:
