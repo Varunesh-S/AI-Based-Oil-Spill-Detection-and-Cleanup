@@ -43,6 +43,7 @@ The system consists of the following major components:
 
 ### Embedded Systems
 - Raspberry Pi
+- Motor Drivers
 - Propulsion Motors
 - Skimmer Motor
 - BMS
