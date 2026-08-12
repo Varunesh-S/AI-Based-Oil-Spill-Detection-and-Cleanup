@@ -1,0 +1,13 @@
+ultralytics
+opencv-python
+numpy
+pandas
+matplotlib
+torch
+torchvision
+roboflow
+Pillow
+PyYAML
+
+picamera2
+gpiozero
